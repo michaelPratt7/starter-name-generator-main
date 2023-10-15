@@ -6,7 +6,7 @@ const App = () => {
   useEffect(() => {
     fetch('https://starter-name-generator-client-cbzi.onrender.com/')
       .then((res) => res.json())
-      .then((nme) => setName([nme]))
+      .then((name) => setName([name]))
   }, [])
 
   return (
